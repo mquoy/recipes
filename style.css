@@ -1,0 +1,121 @@
+body {
+	background-color: salmon;
+	color: darkolivegreen;
+}
+
+p {
+	font-size: 16px;
+	font-family: monospace;
+	color: white;
+}
+
+h1 {
+	font-family: monospace;
+}
+
+ul {
+	list-style-type: square;
+}
+
+a:link {
+	text-decoration: none;
+	/*background-color: darkgrey;*/
+	font-family: sans-serif;
+	font-size: 14px;
+	color: lightsalmon;
+}
+
+a:hover {
+	text-decoration: none;
+	color: green;
+}
+
+a:visited {
+	text-decoration: none;
+	color: royalblue;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+/*ul {
+	list-style: none;
+}
+*/
+button {
+	display: block;
+}
+
+
+.container {
+	width: 50%;
+	max-width: 1366px;
+	margin: 0 auto;
+	border: 5px solid #A9D0F5;
+	padding: 10px;
+	border-radius: 25px;
+	background: darkgrey;
+	/*background-image: url("cmt2.png");
+  background-repeat: repeat;*/
+}
+
+
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+  width: 300px;
+  height: 300px;
+}
+
+.big-title {
+	text-align: center;
+	font-size: 48px;
+}
+
+.recipe-title {
+	font-family: sans-serif;
+	font-size: 32px;
+}
+
+.center-two a {
+	font-size: 20px;
+}
+
+.home {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.ingredients,
+.steps {
+	color: whitesmoke;
+	font-family: monospace;
+	font-size: 12px;
+}
+
+.center-two {
+  margin: auto;
+  width: 50%;
+  /*border: 3px solid green;*/
+  padding: 10px;
+}
+
+.topnav a {
+	background-color: salmon;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px;
+}
+
+.topnav a:hover {
+  background-color: lightsalmon;
+  color: antiquewhite;
+}
+
+.contact-ul a {
+	color: antiquewhite;
+	font-size: 32px;
+}
